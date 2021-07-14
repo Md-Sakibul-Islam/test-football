@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding-left: 0;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -225,7 +226,7 @@ _________________________________________
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     grid-gap: 30px;
-    margin: 10px;
+    margin:2.5px;
   }
   .player {
     width: 330px;
