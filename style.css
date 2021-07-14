@@ -103,6 +103,12 @@ Player part style start
 Player part style end 
 ------------------------------
  */
+
+ /* 
+ -----------------------
+ match part style start 
+ ---------------------
+  */
 .match-part {
   margin: 70px;
   display: grid;
@@ -121,6 +127,14 @@ Player part style end
 .match img {
   width: 90%;
 }
+
+/* 
+ -----------------------
+ match part style end 
+ ---------------------
+  */
+
+
 /* 
 ------------------------------
 footer part style start 
@@ -176,6 +190,7 @@ footer part style end
 ------------------------------
  */
 
+
 /*
 _________________________________________
 Media query style start 
@@ -191,6 +206,7 @@ _________________________________________
   /*
   -----------------------------------------------
    media query banner part style start
+   for Mobile devices
    ----------------------------------------------
    */
   .banner-part {
@@ -198,7 +214,8 @@ _________________________________________
     background-color: #2d25a0;
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: -1px;
+    padding: 4px;
   }
   .banner-text {
     margin-top: 100px;
@@ -231,6 +248,7 @@ _________________________________________
   /*
   ***********************************
    media query player part style start 
+   for moblie devices
   **********************************
    */
 
@@ -264,7 +282,12 @@ _________________________________________
   **********************************
    */
 
-   /* match part query style start  */
+   /*
+   ----------------------------------
+   match part media query style start 
+   for mobile devices
+   --------------------------------
+   */
   .match-part {
     width: 100%;
     display: flex;
@@ -280,11 +303,12 @@ _________________________________________
     justify-content: center;
   }
 
-  /* match part query style end  */
+  /* match  part query style end  */
 
   /*
   ***********************************
    media query footer part style start 
+   for mobile devices
   **********************************
    */
   .footer-part {
@@ -332,6 +356,7 @@ _________________________________________
   /*
   ***********************************
    media query banner part style start 
+   for ipad/tablet devices
   **********************************
    */
   .banner-part {
@@ -373,6 +398,7 @@ _________________________________________
   /*
   ***********************************
    media query player part style start 
+    for ipad/tablet devices
   **********************************
    */
   .players-part {
@@ -412,7 +438,12 @@ _________________________________________
   **********************************
    */
 
-   /* match part  query style start  */
+   /*
+   -----------------------------------------
+   match upcoming part media query style start 
+    for ipad/tablet devices
+   ----------------------------------------
+   */
 
    .match-part {
      text-align: center;
@@ -421,12 +452,13 @@ _________________________________________
     grid-gap: 20px;
   }
 
-  /* match part query style end  */
+  /* match part media query style end  */
 
 
   /*
   ***********************************
    media query footer part style start 
+    for ipad/tablet devices
   **********************************
    */
   .footer-part {
@@ -460,7 +492,7 @@ _________________________________________
 }
 
 /* 
----------------------------
-midea query end 
-----------------------
+________________________________
+midea query  style part end 
+________________________________
  */
