@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* 
+ -------------------------
+  Banner part sytle start
+  ------------------------ 
+  */
+.banner-part {
+  width: 100%;
+  background-color: #2d25a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-logo img {
+  width: 556.01px;
+  height: 438px;
+  margin-top: 100px;
+  margin-right: 40px;
+  margin-bottom: 86px;
+  transform: rotate(0deg);
+  transition: all 2s linear;
+}
+.banner-logo:hover img {
+  transform: rotate(8deg);
+}
+.banner-text {
+  margin-left: 56px;
+  margin-right: 40px;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.btn {
+  border: 0;
+  transition: all 1s ease-in-out;
+}
+.fa-long-arrow-alt-right {
+  color: white;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.btn {
+  background: linear-gradient(88.33deg, #6dee16 -7.64%, #41dd2291 145.94%);
+  padding: 10px 24px;
+  color: white;
+  border-radius: 10px;
+}
+/* 
+-----------------------------
+Banner part style end 
+----------------------------
+ */
+
+/* 
+------------------------------
+Player part style start 
+------------------------------
+ */
+
+.players-part {
+  width: 100%;
+  margin-top: 70px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin: 80px;
+}
+.player {
+  margin-top: 30px;
+  width: 300px;
+  height: 474px;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img {
+  width: 100%;
+}
+.player-name {
+  font-size: 28px;
+  color: #18191f;
+}
+.player-info {
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
+  color: #6c6c6c;
+}
+
+/* 
+------------------------------
+Player part style end 
+------------------------------
+ */
+
+/* 
+------------------------------
+footer part style start 
+------------------------------
+ */
+
+.footer-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 483px;
+  height: 213px;
+  margin-left: 340px;
+}
+.footer-logo img {
+  width: 100%;
+}
+.footer-socical-icon {
+  display: flex;
+  justify-content: center;
+}
+.fab {
+  line-height: 39px !important;
+  text-align: center;
+  margin: 0 15px;
+}
+.icon {
+  margin-left: 82px;
+}
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin,
+.fa-youtube {
+  color: #969bab;
+  font-size: 15px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(150, 155, 171, 0.5);
+}
+.footer-copyright {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 400px;
+  text-align: center;
+  margin-left: 90px;
+}
+
+/* 
+------------------------------
+footer part style end 
+------------------------------
+ */
+
+/*
+_________________________________________
+Media query style start 
+_________________________________________
+ */
+
+/* 
+  ----------------------------
+  media query for moblie devices 
+  -----------------------------
+   */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /*
+  -----------------------------------------------
+   media query banner part style start
+   ----------------------------------------------
+   */
+  .banner-part {
+    width: 100%;
+    background-color: #2d25a0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .banner-text {
+    margin-top: 100px;
+    margin-left: 156px;
+    margin-right: 100px;
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  .banner-logo img {
+    width: 329px;
+    height: 259px;
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 40px;
+    margin-bottom: 86px;
+    transform: rotate(0deg);
+    transition: all 2s linear;
+  }
+  .banner-logo:hover img {
+    transform: rotate(8deg);
+  }
+
+  /*
+  -----------------------------------
+   media query banner part style end 
+   -----------------------------------
+   */
+
+  /*
+  ***********************************
+   media query player part style start 
+  **********************************
+   */
+
+  .players-part {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .players {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    grid-gap: 30px;
+    margin: 10px;
+  }
+  .player {
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    background: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  }
+
+  .player-info {
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c6c6c;
+  }
+  /*
+  ***********************************
+   media query player part style end 
+  **********************************
+   */
+
+  /*
+  ***********************************
+   media query footer part style start 
+  **********************************
+   */
+  .footer-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 213px;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .footer-logo img {
+    width: 90%;
+  }
+  .footer-socical-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon {
+    margin-left: 40px;
+  }
+
+  .footer-copyright {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 53px;
+  }
+}
+
+/*
+  ***********************************
+   media query footer part style end 
+  **********************************
+   */
+
+/* 
+   _____________________________________
+   Media query for ipad / tablet devices 
+   --------------------------------------
+    */
+
+@media only screen and (min-width: 481px) and (max-width: 786px) {
+  /*
+  ***********************************
+   media query banner part style start 
+  **********************************
+   */
+  .banner-part {
+    width: 100%;
+    background-color: #2d25a0;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+  }
+  .banner-text {
+    margin-top: 100px;
+    margin-left: 156px;
+    margin-right: 0;
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  .btn-color {
+    margin-bottom: 50px;
+  }
+  .banner-logo img {
+    width: 329px;
+    height: 259px;
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 40px;
+    margin-bottom: 86px;
+    transform: rotate(0deg);
+    transition: all 2s linear;
+  }
+  .banner-logo:hover img {
+    transform: rotate(8deg);
+  } /*
+  ***********************************
+   media query banner part style end 
+  **********************************
+   */
+
+  /*
+  ***********************************
+   media query player part style start 
+  **********************************
+   */
+  .players-part {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .players {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-gap: 30px;
+    margin: 10px;
+  }
+  .player {
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    background: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  }
+  .player img {
+    width: 100%;
+  }
+  .player-name {
+    font-size: 28px;
+    color: #18191f;
+  }
+  .player-info {
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c6c6c;
+  }
+
+  /*
+  ***********************************
+   media query player part style end 
+  **********************************
+   */
+
+  /*
+  ***********************************
+   media query footer part style start 
+  **********************************
+   */
+  .footer-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 213px;
+    margin-left: 0;
+    margin-top: 70px;
+  }
+  .footer-logo img {
+    width: 90%;
+  }
+  .footer-socical-icon {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-copyright {
+    margin-top: 20px;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 53px;
+  }
+
+  /*
+  ***********************************
+   media query footer part style end 
+  **********************************
+   */
+}
+
+/* 
+---------------------------
+midea query end 
+----------------------
+ */
