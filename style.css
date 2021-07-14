@@ -294,7 +294,7 @@ _________________________________________
     flex-direction: column;
     align-items: center;
     grid-gap: 20px;
-    margin: 30px 8px;
+    margin: 50px 8px;
   }
   .matches {
     display: flex;
@@ -450,6 +450,7 @@ _________________________________________
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    margin-top: 20px;
   }
 
   /* match part media query style end  */
